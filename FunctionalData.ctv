@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CRANTaskView>
-<name>FunctionalData</name>  
-<topic>Functional Data Analysis</topic>  
-<maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>  
+<name>FunctionalData</name>
+<topic>Functional Data Analysis</topic>
+<maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
 <version>2017-04-05</version>
 
 <info>
@@ -10,7 +10,7 @@
 
 <p><strong>General functional data analysis</strong></p>
 <ul>
-<li><pkg>fda</pkg> provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) âData Analysis with R and Matlabâ (Springer).</li>
+<li><pkg>fda</pkg> provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) "Data Analysis with R and Matlab" (Springer).</li>
 <li><pkg>fdasrvf</pkg> performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
 <li><pkg>fda.usc</pkg> provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.</li>
 <li><pkg>funData</pkg> provides S4 classes for univariate and multivariate functional and image data and utility functions.</li>
@@ -30,7 +30,7 @@
 <li><pkg>fdaPDE</pkg> contains an implementation of regression models with partial differential regularizations.</li>
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>fdapace</pkg> provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for longitudinal data analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.</li>
-<li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of âlmâ and âglmâ, as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
+<li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
 </ul>
 
 <p><strong>Clustering functional data</strong></p>
@@ -67,9 +67,7 @@
 <li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
 </ul>
 
-<p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany).
-Please open an issue at <a href="https://github.com/fabian-s/taskview_fda/issues">our Github repository</a> with suggestions,
-additions and improvements (... or fork it and send a pull request).</p>
+<p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please contact Fabian Scheipl with suggestions, additions and improvements.</p>
 
 </info>
 
