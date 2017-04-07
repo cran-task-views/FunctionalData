@@ -73,22 +73,22 @@
 
 <packagelist>
 <pkg>dbstats</pkg>
-<pkg>fda</pkg>
+<pkg priority="core">fda</pkg>
 <pkg>fdakma</pkg>
 <pkg>fdapace</pkg>
 <pkg>fdaPDE</pkg>
-<pkg>fdasrvf</pkg>
+<pkg priority="core">fdasrvf</pkg>
 <pkg>fdatest</pkg>
-<pkg>fda.usc</pkg>
-<pkg>FDboost</pkg>
+<pkg priority="core">fda.usc</pkg>
+<pkg priority="core">FDboost</pkg>
 <pkg>fdcov</pkg>
 <pkg>fds</pkg>
 <pkg>flars</pkg>
 <pkg>fpca</pkg>
 <pkg>freqdom</pkg>
-<pkg>ftsa</pkg>
+<pkg priority="core">ftsa</pkg>
 <pkg>Funclustering</pkg>
-<pkg>funcy</pkg>
+<pkg priority="core">funcy</pkg>
 <pkg>funData</pkg>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
@@ -98,7 +98,7 @@
 <pkg>MFPCA</pkg>
 <pkg>pcdpca</pkg>
 <pkg>rainbow</pkg>
-<pkg>refund</pkg>
+<pkg priority="core">refund</pkg>
 <pkg>refund.shiny</pkg>
 <pkg>refund.wave</pkg>
 <pkg>RFgroove</pkg>
