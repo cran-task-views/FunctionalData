@@ -12,6 +12,7 @@
 <ul>
 <li><pkg>fda</pkg> provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) "Data Analysis with R and Matlab" (Springer).</li>
 <li><pkg>fdasrvf</pkg> performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
+<li><pkg>fdapace</pkg> provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for longitudinal data analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.</li>
 <li><pkg>fda.usc</pkg> provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.</li>
 <li><pkg>funData</pkg> provides S4 classes for univariate and multivariate functional and image data and utility functions.</li>
 <li><pkg>fds</pkg> contains 19 data sets with functional data.</li>
@@ -29,7 +30,7 @@
 <li><pkg>FDboost</pkg> implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.</li>
 <li><pkg>fdaPDE</pkg> contains an implementation of regression models with partial differential regularizations.</li>
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
-<li><pkg>fdapace</pkg> provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for longitudinal data analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.</li>
+<li><pkg>sparseFLMM</pkg> implements functional linear mixed models for irregularly or sparsely sampled data based on functional principal component analysis.</li>
 <li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
 </ul>
 
@@ -75,7 +76,7 @@
 <pkg>dbstats</pkg>
 <pkg priority="core">fda</pkg>
 <pkg>fdakma</pkg>
-<pkg>fdapace</pkg>
+<pkg priority="core">fdapace</pkg>
 <pkg>fdaPDE</pkg>
 <pkg priority="core">fdasrvf</pkg>
 <pkg>fdatest</pkg>
@@ -103,6 +104,7 @@
 <pkg>refund.wave</pkg>
 <pkg>RFgroove</pkg>
 <pkg>roahd</pkg>
+<pkg>sparseFLMM</pkg>
 <pkg>switchnpreg</pkg>
 <pkg>warpMix</pkg>
 </packagelist>
