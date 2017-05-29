@@ -32,7 +32,7 @@
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>sparseFLMM</pkg> implements functional linear mixed models for irregularly or sparsely sampled data based on functional principal component analysis.</li>
 <li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
-<li><pkg>classiFunc</pkg> provides an efficient implementation of k-nearest neighbor and kernel estimators for functional data classification.</li>
+<li><pkg>classiFunc</pkg> provides nearest neighbor and kernel-based estimation based on semimetrics for supervised classification of functional data.</li>
 </ul>
 
 <p><strong>Clustering functional data</strong></p>
