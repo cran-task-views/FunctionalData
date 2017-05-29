@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2017-04-05</version>
+<version>2017-05-29</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -32,6 +32,7 @@
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>sparseFLMM</pkg> implements functional linear mixed models for irregularly or sparsely sampled data based on functional principal component analysis.</li>
 <li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
+<li><pkg>classiFunc</pkg> provides an efficient implementation of k-nearest neighbor and kernel estimators for functional data classification.</li>
 </ul>
 
 <p><strong>Clustering functional data</strong></p>
@@ -73,6 +74,7 @@
 </info>
 
 <packagelist>
+<pkg>classiFunc</pkg>
 <pkg>dbstats</pkg>
 <pkg priority="core">fda</pkg>
 <pkg>fdakma</pkg>
