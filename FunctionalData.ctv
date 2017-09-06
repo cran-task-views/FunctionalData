@@ -55,6 +55,7 @@
 <ul>
 <li><pkg>ftsa</pkg> provides functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.</li>
 <li><pkg>freqdom</pkg> provides frequency domain methods for multivariate and functional time series and implements dynamic functional principal components and functional regression in the presence of temporal dependence.</li>
+<li><pkg>freqdom.fda</pkg> provides a wrapper for functionality of <pkg>freqdom </pkg> for objects from <pkg>fda</pkg></li>
 <li><pkg>pcdpca</pkg> extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.</li>
 </ul>
 
@@ -89,6 +90,7 @@
 <pkg>flars</pkg>
 <pkg>fpca</pkg>
 <pkg>freqdom</pkg>
+<pkg>freqdom.fda</pkg>
 <pkg priority="core">ftsa</pkg>
 <pkg>Funclustering</pkg>
 <pkg priority="core">funcy</pkg>
