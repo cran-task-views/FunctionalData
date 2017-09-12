@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2017-05-29</version>
+<version>2017-09-06</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -55,7 +55,7 @@
 <ul>
 <li><pkg>ftsa</pkg> provides functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.</li>
 <li><pkg>freqdom</pkg> provides frequency domain methods for multivariate and functional time series and implements dynamic functional principal components and functional regression in the presence of temporal dependence.</li>
-<li><pkg>freqdom.fda</pkg> provides a wrapper for functionality of <pkg>freqdom </pkg> for objects from <pkg>fda</pkg></li>
+<li><pkg>freqdom.fda</pkg> provides a wrapper for functionality of <pkg>freqdom</pkg> for objects from <pkg>fda</pkg></li>
 <li><pkg>pcdpca</pkg> extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.</li>
 </ul>
 
