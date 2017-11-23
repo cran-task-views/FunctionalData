@@ -22,6 +22,7 @@
 
 <p><strong>Regression and classification for functional data</strong></p>
 <ul>
+<li><pkg>denseFLMM</pkg> estimates functional linear mixed models for densely sampled data based on functional principal component analysis.</li>
 <li><pkg>GPFDA</pkg> uses functional regression as the mean structure and Gaussian processes as the covariance structure.</li>
 <li><pkg>growfunctions</pkg> estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.</li>
 <li><pkg>refund</pkg> provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression as well as methods for functional PCA. Some of the functions are applicable to image data.</li>
@@ -54,6 +55,7 @@
 <p><strong>Time series of functional data</strong></p>
 <ul>
 <li><pkg>ftsa</pkg> provides functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.</li>
+<li><pkg>ftsspec</pkg> provides functions for estimating the spectral density operator of functional time series (FTS) and comparing the spectral density operator of two functional time series, in a way that allows detection of differences of the spectral density operator in frequencies and along the curve length.</li>
 <li><pkg>freqdom</pkg> provides frequency domain methods for multivariate and functional time series and implements dynamic functional principal components and functional regression in the presence of temporal dependence.</li>
 <li><pkg>freqdom.fda</pkg> provides a wrapper for functionality of <pkg>freqdom</pkg> for objects from <pkg>fda</pkg></li>
 <li><pkg>pcdpca</pkg> extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.</li>
@@ -68,6 +70,7 @@
 <li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
 <li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
 <li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
+<li><pkg>covsep</pkg> provides functions for testing if the covariance structure of 2-dimensional data is separable.</li>
 </ul>
 
 <p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please contact Fabian Scheipl with suggestions, additions and improvements.</p>
@@ -76,7 +79,9 @@
 
 <packagelist>
 <pkg>classiFunc</pkg>
+<pkg>covsep</pkg>
 <pkg>dbstats</pkg>
+<pkg>denseFLMM</pkg>
 <pkg priority="core">fda</pkg>
 <pkg>fdakma</pkg>
 <pkg priority="core">fdapace</pkg>
@@ -92,6 +97,7 @@
 <pkg>freqdom</pkg>
 <pkg>freqdom.fda</pkg>
 <pkg priority="core">ftsa</pkg>
+<pkg>ftsspec</pkg>
 <pkg>Funclustering</pkg>
 <pkg priority="core">funcy</pkg>
 <pkg>funData</pkg>
