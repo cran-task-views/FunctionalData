@@ -66,6 +66,7 @@
 <li><pkg>MFPCA</pkg> implements multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).</li>
 <li><pkg>fpca</pkg> implements functional principal components for sparsely observed data. A geometric approach to MLE for functional principal components.</li>
 <li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
+<li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (doi:10.1214/15-AOS1363) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
 <li><pkg>geofd</pkg> provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
 <li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
 <li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
@@ -83,6 +84,7 @@
 <pkg>dbstats</pkg>
 <pkg>denseFLMM</pkg>
 <pkg priority="core">fda</pkg>
+<pkg>fdadensity</pkg>
 <pkg>fdakma</pkg>
 <pkg priority="core">fdapace</pkg>
 <pkg>fdaPDE</pkg>
