@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2017-09-06</version>
+<version>2018-02-12</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -63,7 +63,6 @@
 
 <p><strong>Other</strong></p>
 <ul>
-<li><pkg>MFPCA</pkg> implements multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).</li>
 <li><pkg>fpca</pkg> implements functional principal components for sparsely observed data. A geometric approach to MLE for functional principal components.</li>
 <li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
 <li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (doi:10.1214/15-AOS1363) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
@@ -108,7 +107,6 @@
 <pkg>geofd</pkg>
 <pkg>GPFDA</pkg>
 <pkg>growfunctions</pkg>
-<pkg>MFPCA</pkg>
 <pkg>pcdpca</pkg>
 <pkg>rainbow</pkg>
 <pkg priority="core">refund</pkg>
