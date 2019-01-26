@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2018-12-04</version>
+<version>2019-01-26</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -26,7 +26,6 @@
 <li><pkg>GPFDA</pkg> uses functional regression as the mean structure and Gaussian processes as the covariance structure.</li>
 <li><pkg>growfunctions</pkg> estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.</li>
 <li><pkg>refund</pkg> provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression as well as methods for functional PCA. Some of the functions are applicable to image data.</li>
-<li><pkg>refund.wave</pkg> provides methods for regressing scalar responses on functional or image predictors, via transformation to the wavelet domain and back.</li>
 <li><pkg>refund.shiny</pkg> provides interactive plots for functional data analyses.</li>
 <li><pkg>FDboost</pkg> implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.</li>
 <li><pkg>fdaPDE</pkg> contains an implementation of regression models with partial differential regularizations.</li>
@@ -109,7 +108,6 @@
 <pkg>rainbow</pkg>
 <pkg priority="core">refund</pkg>
 <pkg>refund.shiny</pkg>
-<pkg>refund.wave</pkg>
 <pkg>RFgroove</pkg>
 <pkg>roahd</pkg>
 <pkg>sparseFLMM</pkg>
