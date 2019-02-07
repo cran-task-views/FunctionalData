@@ -39,6 +39,7 @@
 <ul>
 <li><pkg>funFEM</pkg>'s algorithm (Bouveyron et al., 2014) allows to cluster functional data by modeling the curves within a common and discriminative functional subspace.</li>
 <li><pkg>funHDDC</pkg> provides the funHDDC algorithm (Bouveyron &amp; Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace.</li>
+<li><pkg>funLBM</pkg> implements model-based co-clustering of functional data, i.e., simultaneously clustering the rows and the columns of a data matrix where each entry of the matrix is a function or a time series.</li>
 <li><pkg>fdakma</pkg> performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.</li>
 </ul>
 
@@ -60,16 +61,18 @@
 
 <p><strong>Other</strong></p>
 <ul>
-<li><pkg>ddalpha</pkg> implements depth-based classification and calculation of data depth, also for functional data.</li>
-<li><pkg>fpca</pkg> implements functional principal components for sparsely observed data in a geometric approach to MLE for functional principal components.</li>
-<li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
-<li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (doi:10.1214/15-AOS1363) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
-<li><pkg>geofd</pkg> provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
-<li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
-<li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
-<li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
 <li><pkg>covsep</pkg> provides functions for testing if the covariance structure of 2-dimensional data is separable.</li>
 </ul>
+<li><pkg>ddalpha</pkg> implements depth-based classification and calculation of data depth, also for functional data.</li>
+<li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (doi:10.1214/15-AOS1363) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
+<li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
+<li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
+<li><pkg>fpca</pkg> implements functional principal components for sparsely observed data in a geometric approach to MLE for functional principal components.</li>
+<li><pkg>geofd</pkg> provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
+<li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
+<li><pkg>SCBmeanfd</pkg> provides methods for estimating and inferring the mean of functional data. The methods include simultaneous confidence bands, local polynomial fitting, bandwidth selection by plug-in and cross-validation, goodness-of-fit tests for parametric models, equality tests for two-sample problems, and plotting functions.</li>
+<li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
+
 
 <p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please contact Fabian Scheipl with suggestions, additions and improvements.</p>
 
@@ -91,7 +94,7 @@
 <pkg priority="core">fda.usc</pkg>
 <pkg priority="core">FDboost</pkg>
 <pkg>fdcov</pkg>
-<pkg>fds</pkg>
+<pkg priority="core">fds</pkg>
 <pkg>flars</pkg>
 <pkg>fpca</pkg>
 <pkg>freqdom</pkg>
@@ -101,6 +104,7 @@
 <pkg>funData</pkg>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
+<pkg>funLBM</pkg>
 <pkg>geofd</pkg>
 <pkg>GPFDA</pkg>
 <pkg>growfunctions</pkg>
@@ -110,7 +114,9 @@
 <pkg>refund.shiny</pkg>
 <pkg>RFgroove</pkg>
 <pkg>roahd</pkg>
+<pkg>SCBmeanfd</pkg>
 <pkg>sparseFLMM</pkg>
+<pkg>splinetree</pkg>
 <pkg>switchnpreg</pkg>
 <pkg>warpMix</pkg>
 </packagelist>
