@@ -62,7 +62,6 @@
 <p><strong>Other</strong></p>
 <ul>
 <li><pkg>covsep</pkg> provides functions for testing if the covariance structure of 2-dimensional data is separable.</li>
-</ul>
 <li><pkg>ddalpha</pkg> implements depth-based classification and calculation of data depth, also for functional data.</li>
 <li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (doi:10.1214/15-AOS1363) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
 <li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
@@ -72,7 +71,7 @@
 <li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
 <li><pkg>SCBmeanfd</pkg> provides methods for estimating and inferring the mean of functional data. The methods include simultaneous confidence bands, local polynomial fitting, bandwidth selection by plug-in and cross-validation, goodness-of-fit tests for parametric models, equality tests for two-sample problems, and plotting functions.</li>
 <li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
-
+</ul>
 
 <p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please contact Fabian Scheipl with suggestions, additions and improvements.</p>
 
