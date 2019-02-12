@@ -22,17 +22,18 @@
 
 <p><strong>Regression and classification for functional data</strong></p>
 <ul>
+<li><pkg>classiFunc</pkg> provides nearest neighbor and kernel-based estimation based on semimetrics for supervised classification of functional data.</li>
+<li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
 <li><pkg>denseFLMM</pkg> estimates functional linear mixed models for densely sampled data based on functional principal component analysis.</li>
+<li><pkg>fdaPDE</pkg> contains an implementation of regression models with partial differential regularizations.</li>
+<li><pkg>FDboost</pkg> implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.</li>
+<li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>GPFDA</pkg> uses functional regression as the mean structure and Gaussian processes as the covariance structure.</li>
 <li><pkg>growfunctions</pkg> estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.</li>
 <li><pkg>refund</pkg> provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression as well as methods for functional PCA. Some of the functions are applicable to image data.</li>
 <li><pkg>refund.shiny</pkg> provides interactive plots for functional data analyses.</li>
-<li><pkg>FDboost</pkg> implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.</li>
-<li><pkg>fdaPDE</pkg> contains an implementation of regression models with partial differential regularizations.</li>
-<li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>sparseFLMM</pkg> implements functional linear mixed models for irregularly or sparsely sampled data based on functional principal component analysis.</li>
-<li><pkg>dbstats</pkg> provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of <tt>lm</tt> and <tt>glm,</tt> as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
-<li><pkg>classiFunc</pkg> provides nearest neighbor and kernel-based estimation based on semimetrics for supervised classification of functional data.</li>
+<li><pkg>splinetree</pkg> implements regression trees and random forests for longitudinal or functional data using a spline projection method.</li>
 </ul>
 
 <p><strong>Clustering functional data</strong></p>
