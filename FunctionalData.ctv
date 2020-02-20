@@ -67,7 +67,6 @@
 <li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
 <li><pkg>fpca</pkg> implements functional principal components for sparsely observed data in a geometric approach to MLE for functional principal components.</li>
 <li><pkg>geofd</pkg> provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
-<li><pkg>RFgroove</pkg> implements variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
 <li><pkg>SCBmeanfd</pkg> provides methods for estimating and inferring the mean of functional data. The methods include simultaneous confidence bands, local polynomial fitting, bandwidth selection by plug-in and cross-validation, goodness-of-fit tests for parametric models, equality tests for two-sample problems, and plotting functions.</li>
 <li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
 </ul>
@@ -108,7 +107,6 @@
 <pkg>rainbow</pkg>
 <pkg priority="core">refund</pkg>
 <pkg>refund.shiny</pkg>
-<pkg>RFgroove</pkg>
 <pkg>roahd</pkg>
 <pkg>SCBmeanfd</pkg>
 <pkg>sparseFLMM</pkg>
