@@ -106,7 +106,6 @@
 <pkg>rainbow</pkg>
 <pkg priority="core">refund</pkg>
 <pkg>refund.shiny</pkg>
-<pkg>roahd</pkg>
 <pkg>SCBmeanfd</pkg>
 <pkg>sparseFLMM</pkg>
 <pkg>splinetree</pkg>
