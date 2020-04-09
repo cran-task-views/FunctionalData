@@ -55,6 +55,10 @@
 <li><pkg>freqdom</pkg> provides frequency domain methods for multivariate and functional time series and implements dynamic functional principal components and functional regression in the presence of temporal dependence.</li>
 <li><pkg>freqdom.fda</pkg> provides a wrapper for functionality of <pkg>freqdom</pkg> for objects from <pkg>fda</pkg></li>
 <li><pkg>pcdpca</pkg> extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.</li>
+<li><pkg>fdaACF</pkg> contains functions to quantify the serial correlation across lags of a given functional
+    time series using an autocorrelation function for functional time series.
+    The autocorrelation function is based on the L2 norm of the lagged covariance operators of the series. Functions are available for estimating the distribution of the autocorrelation function under the assumption
+    of strong functional white noise. A brief illustration of the functionality of the proposed functions can be seen at <a href="https://github.com/GMestreM/fdaACF">github.com/GMestreM/fdaACF</a>.</li>
 </ul>
 
 <p><strong>Other</strong></p>
@@ -80,6 +84,7 @@
 <pkg>ddalpha</pkg>
 <pkg>denseFLMM</pkg>
 <pkg priority="core">fda</pkg>
+<pkg>fdaACF</pkg>
 <pkg>fdadensity</pkg>
 <pkg>fdakma</pkg>
 <pkg priority="core">fdapace</pkg>
