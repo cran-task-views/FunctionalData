@@ -26,7 +26,6 @@
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>GPFDA</pkg> uses functional regression as the mean structure and Gaussian processes as the covariance structure.</li>
 <li><pkg>growfunctions</pkg> estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.</li>
-<li><pkg>refund.shiny</pkg> provides interactive plots for functional data analyses.</li>
 <li><pkg>sparseFLMM</pkg> implements functional linear mixed models for irregularly or sparsely sampled data based on functional principal component analysis.</li>
 <li><pkg>splinetree</pkg> implements regression trees and random forests for longitudinal or functional data using a spline projection method.</li>
 </ul>
@@ -106,7 +105,6 @@
 <pkg>growfunctions</pkg>
 <pkg>pcdpca</pkg>
 <pkg>rainbow</pkg>
-<pkg>refund.shiny</pkg>
 <pkg>SCBmeanfd</pkg>
 <pkg>sparseFLMM</pkg>
 <pkg>splinetree</pkg>
