@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2020-08-27</version>
+<version>2020-09-08</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -28,6 +28,7 @@
 <li><pkg>flars</pkg> implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li><pkg>GPFDA</pkg> uses functional regression as the mean structure and Gaussian processes as the covariance structure.</li>
 <li><pkg>growfunctions</pkg> estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.</li>
+<li><pkg>refund</pkg> provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression as well as methods for functional PCA. Some of the functions are applicable to image data.</li>
 <li><pkg>splinetree</pkg> implements regression trees and random forests for longitudinal or functional data using a spline projection method.</li>
 </ul>
 
@@ -90,6 +91,7 @@
 <pkg priority="core">fdasrvf</pkg>
 <pkg>fdatest</pkg>
 <pkg priority="core">fda.usc</pkg>
+<pkg priority="core">FDboost</pkg>
 <pkg>fdcov</pkg>
 <pkg priority="core">fds</pkg>
 <pkg>flars</pkg>
@@ -107,6 +109,7 @@
 <pkg>growfunctions</pkg>
 <pkg>pcdpca</pkg>
 <pkg>rainbow</pkg>
+<pkg priority="core">refund</pkg>
 <pkg>SCBmeanfd</pkg>
 <pkg>splinetree</pkg>
 <pkg>switchnpreg</pkg>
