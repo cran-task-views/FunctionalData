@@ -17,6 +17,7 @@
 <li><pkg>funData</pkg> provides S4 classes for univariate and multivariate functional and image data and utility functions.</li>
 <li><pkg>fds</pkg> contains 19 data sets with functional data.</li>
 <li><pkg>rainbow</pkg> contains functions and data sets for functional data display, exploratory analysis and outlier detection.</li>
+<li><pkg>fdaoutlier</pkg> provides a collection of functions for functional data outlier detection. Methods implemented include directional outlyingness, MS-plot, total variation depth, and sequential transformations among others.</li>
 </ul>
 
 <p><strong>Regression and classification for functional data</strong></p>
@@ -87,6 +88,7 @@
 <pkg>fdadensity</pkg>
 <pkg>fdakma</pkg>
 <pkg>fdANOVA</pkg>
+<pkg>fdaoutlier</pkg>
 <pkg priority="core">fdapace</pkg>
 <pkg priority="core">fdasrvf</pkg>
 <pkg>fdatest</pkg>
