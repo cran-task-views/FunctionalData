@@ -3,7 +3,7 @@
 <name>FunctionalData</name>
 <topic>Functional Data Analysis</topic>
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl</maintainer>
-<version>2020-09-08</version>
+<version>2021-07-28</version>
 
 <info>
 <p>Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
@@ -14,7 +14,6 @@
 <li><pkg>fdasrvf</pkg> performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
 <li><pkg>fdapace</pkg> provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for longitudinal data analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.</li>
 <li><pkg>fda.usc</pkg> provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.</li>
-<li><pkg>funData</pkg> provides S4 classes for univariate and multivariate functional and image data and utility functions.</li>
 <li><pkg>fds</pkg> contains 19 data sets with functional data.</li>
 <li><pkg>rainbow</pkg> contains functions and data sets for functional data display, exploratory analysis and outlier detection.</li>
 <li><pkg>fdaoutlier</pkg> provides a collection of functions for functional data outlier detection. Methods implemented include directional outlyingness, MS-plot, total variation depth, and sequential transformations among others.</li>
@@ -105,7 +104,6 @@
 <pkg>freqdom.fda</pkg>
 <pkg priority="core">ftsa</pkg>
 <pkg>ftsspec</pkg>
-<pkg>funData</pkg>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
 <pkg>funLBM</pkg>
