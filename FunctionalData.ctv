@@ -45,7 +45,7 @@
 <ul>
 <li><pkg>fdasrvf</pkg> performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
 <li><pkg>fdakma</pkg> performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.</li>
-<li><pkg>registr</pkg> provides registration for (incomplete) non-Gaussian functional data, c.f Wrobel et al. (2019) <doi>10.1111/biom.12963</doi> and Wrobel and Bauer (2021) <doi>10.21105/joss.02964</doi>.</li>
+<li><pkg>registr</pkg> provides registration for (incomplete) non-Gaussian functional data, c.f Wrobel et al. (2019) <a href="https://doi.org/10.1111/biom.12963">doi: 10.1111/biom.12963</a> and Wrobel and Bauer (2021) <a href="https://doi.org/10.21105/joss.02964">doi: 10.21105/joss.02964</a>.</li>
 <li><pkg>warpMix</pkg> implements warping (alignment) for functional data using B-spline based mixed effects models.</li>
 </ul>
 
@@ -66,14 +66,14 @@
 <ul>
 <li><pkg>covsep</pkg> provides functions for testing if the covariance structure of 2-dimensional data is separable.</li>
 <li><pkg>ddalpha</pkg> implements depth-based classification and calculation of data depth, also for functional data.</li>
-<li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (<doi>10.1214/15-AOS1363</doi>) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
-<li><pkg>face</pkg> implements Fast Covariance Estimation for Sparse Functional Data paper (c.f. Statistics and Computing, <doi>10.1007/s11222-017-9744-8</doi>)</li>
+<li><pkg>fdadensity</pkg> implements Petersen and Mueller (2016) (<a href="https://doi.org/10.1214/15-AOS1363">doi: 10.1214/15-AOS1363</a>) for the analysis of samples of density functions via specialized Functional Principal Components Analysis.</li>
+<li><pkg>face</pkg> implements Fast Covariance Estimation for Sparse Functional Data paper (c.f. Statistics and Computing, <a href="https://doi.org/10.1007/s11222-017-9744-8">doi: 10.1007/s11222-017-9744-8</a>)</li>
 <li><pkg>fdatest</pkg> provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
 <li><pkg>fdcov</pkg> provides a variety of tools for the analysis of covariance operators.</li>
 <li><pkg>fpca</pkg> implements functional principal components for sparsely observed data in a geometric approach to MLE for functional principal components.</li>
 <li><pkg>geofd</pkg> provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
-<li><pkg>mfaces</pkg> implements multivariate functional principal component analysis via fast covariance estimation for multivariate sparse functional data or longitudinal data (c.f Li, Xiao, and Luo (2020) <doi>10.1002/sta4.245</doi>).</li>
-<li><pkg>MFPCA</pkg> calculates multivariate FPCA for data observed on different dimensional domains (c.f.  Happ and Greven (2018) <doi>10.1080/01621459.2016.1273115</doi>).</li>
+<li><pkg>mfaces</pkg> implements multivariate functional principal component analysis via fast covariance estimation for multivariate sparse functional data or longitudinal data (c.f Li, Xiao, and Luo (2020) <a href="https://doi.org/10.1002/sta4.245">doi: 10.1002/sta4.245</a>).</li>
+<li><pkg>MFPCA</pkg> calculates multivariate FPCA for data observed on different dimensional domains (c.f.  Happ and Greven (2018) <a href="https://doi.org/10.1080/01621459.2016.1273115">doi: 10.1080/01621459.2016.1273115</a>).</li>
 <li><pkg>SCBmeanfd</pkg> provides methods for estimating and inferring the mean of functional data. The methods include simultaneous confidence bands, local polynomial fitting, bandwidth selection by plug-in and cross-validation, goodness-of-fit tests for parametric models, equality tests for two-sample problems, and plotting functions.</li>
 <li><pkg>switchnpreg</pkg> provides functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
 </ul>
