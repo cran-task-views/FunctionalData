@@ -3,7 +3,7 @@ name: FunctionalData
 topic: Functional Data Analysis
 maintainer: Fabian Scheipl
 email: fabian.scheipl@stat.uni-muenchen.de
-version: 2021-12-27
+version: 2022-03-07
 source: https://github.com/cran-task-views/FunctionalData/
 ---
 
@@ -181,9 +181,6 @@ field.
     B-spline, Fourier, and phase-amplitude Fourier).
 -   `r pkg("fdcov")` provides a variety of tools for the
     analysis of covariance operators.
--   `r pkg("fpca")` implements functional principal
-    components for sparsely observed data in a geometric approach to MLE
-    for functional principal components.
 -   `r pkg("geofd")` provides Kriging based methods for
     predicting functional data (curves) with spatial dependence.
 -   `r pkg("mfaces")` implements multivariate functional
