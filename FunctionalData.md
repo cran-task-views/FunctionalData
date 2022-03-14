@@ -10,8 +10,11 @@ source: https://github.com/cran-task-views/FunctionalData/
 Functional data analysis (FDA) deals with data that ["provides
 information about curves, surfaces or anything else varying over a
 continuum."](https://en.wikipedia.org/wiki/Functional_data_analysis)
-This task view catalogues available packages in this rapidly developing
-field.
+This task view tries to provide an overview of available packages in this developing
+field.  
+In practice, there is substantial overlap between time series data and functional data,
+so many packages listed under the ["TimeSeries" task view](https://CRAN.R-project.org/view=TimeSeries)
+could be useful for functional data as well and vice versa.
 
 ### General functional data analysis
 
@@ -55,16 +58,15 @@ field.
 -   `r pkg("dbstats")` provides prediction methods where
     explanatory information is coded as a matrix of distances between
     individuals. It includes distance based versions of
-    `             lm           ` and `             glm,           ` as
-    well as nonparametric versions of both, based on local estimation.
+    `lm` and `glm`, as well as nonparametric versions of both, based on local estimation.
     To apply these methods to functional data it is sufficient to
     calculate a distance matrix between the observed functional data.
--   `r pkg("denseFLMM")` and
-    `r pkg("sparseFLMM")` estimate functional linear mixed
+-   `r pkg("denseFLMM")` and `r pkg("sparseFLMM")` estimate functional linear mixed
     models for densely and sparsely sampled data, respectively, based on
     functional principal component analysis.
 -   `r pkg("fdANOVA")` implements analysis of variance
-    testing procedures for univariate and multivariate functional data
+    testing procedures for univariate and multivariate functional data.
+-   `r pkg("fdaPDE")` implements regression models with partial differential regularization using finite element methods to efficiently handle data distributed over irregularly shaped domains and boundary conditions.
 -   `r pkg("FDboost", priority = "core")` implements flexible
     additive regression models and variable selection for
     scalar-on-function, function-on-scalar and function-on-function
