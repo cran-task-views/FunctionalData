@@ -18,16 +18,12 @@ could be useful for functional data as well and vice versa.
 
 ### General functional data analysis
 
--   `r pkg("fda", priority = "core")` provides functions to
-    enable all aspects of functional data analysis: It includes
-    object-types for functional data with corresponding functions for
-    smoothing, plotting and regression models. The package includes data
-    sets and script files for working examples from the book: Ramsay, J.
-    O., Hooker, Giles, and Graves, Spencer (2009) "Data Analysis with R
-    and Matlab" (Springer).
+-   `r pkg("fda", priority = "core")` provides object-types for functional data 
+    with corresponding functions for smoothing, plotting and simple regression models,
+    c.f. Ramsay et al. (2009, `r doi("10.1007/978-0-387-98185-7")`).
 -   `r pkg("fdasrvf", priority = "core")` performs alignment,
     PCA, and regression of multidimensional or unidimensional functions
-    using the square-root velocity framework (Srivastava et al., 2011).
+    using the square-root velocity framework, c.f. Srivastava et al. (2011, `r doi("10.48550/arXiv.1103.3817")`).
     This framework allows for elastic analysis of functional data
     through phase and amplitude separation.
 -   `r pkg("fdapace", priority = "core")` provides functional
@@ -86,7 +82,7 @@ could be useful for functional data as well and vice versa.
     GP and iGMRF formulations both support any number of additive
     covariance or precision terms, respectively, expressing either or
     both of multiple trend and seasonality.
--   `r pkg("multifamm")` implements multivariate functional additive mixed models (multiFAMM) based on univariate sparse functional regression models and multivariate functional principal component analysis, c.f. Volkmann et al. (2012) [doi:  10.48550/arXiv.2103.06606](https://doi.org/10.48550/arXiv.2103.06606).
+-   `r pkg("multifamm")` implements multivariate functional additive mixed models (multiFAMM) based on univariate sparse functional regression models and multivariate functional principal component analysis, c.f. Volkmann et al. (2012, `r doi("10.48550/arXiv.2103.06606")`).
 -   `r pkg("refund", priority = "core")` provides
     spline-based methods for roughness penalized function-on-scalar,
     scalar-on-function, and function-on-function regression as well as
@@ -114,7 +110,7 @@ could be useful for functional data as well and vice versa.
 
 ### Registering and aligning functional data
 
--   `r pkg("elasdics")` provides functions to align curves and to compute mean curves based on the elastic distance defined in the square-root-velocity framework, c.f. Steyer et al. (2021) [doi:  10.48550/arXiv.2104.11039](https://doi.org/10.48550/arXiv.2104.11039).
+-   `r pkg("elasdics")` provides functions to align curves and to compute mean curves based on the elastic distance defined in the square-root-velocity framework, c.f. Steyer et al. (2021, `r doi("10.48550/arXiv.2104.11039")`).
 -   `r pkg("fdasrvf")` performs alignment, PCA, and
     regression of multidimensional or unidimensional functions using the
     square-root velocity framework (Srivastava et al., 2011). This
@@ -123,11 +119,9 @@ could be useful for functional data as well and vice versa.
 -   `r pkg("fdakma")` performs clustering and alignment of a
     multidimensional or unidimensional functional dataset by means of
     k-mean alignment.
--   `r pkg("registr")` provides registration for
-    (incomplete) non-Gaussian functional data, c.f Wrobel et al. (2019)
-    [doi: 10.1111/biom.12963](https://doi.org/10.1111/biom.12963) and
-    Wrobel and Bauer (2021) [doi:
-    10.21105/joss.02964](https://doi.org/10.21105/joss.02964) .
+-   `r pkg("registr")` provides registration for (incomplete) non-Gaussian functional data, 
+    c.f Wrobel et al. (2019, `r doi("10.1111/biom.12963")`),
+    Wrobel and Bauer (2021, `r doi("10.21105/joss.02964")`).
 -   `r pkg("warpMix")` implements warping (alignment) for
     functional data using B-spline based mixed effects models.
 
@@ -152,14 +146,7 @@ could be useful for functional data as well and vice versa.
     components to periodically correlated multivariate and functional
     time series.
 -   `r pkg("fdaACF")` contains functions to quantify the
-    serial correlation across lags of a given functional time series
-    using an autocorrelation function for functional time series. The
-    autocorrelation function is based on the L2 norm of the lagged
-    covariance operators of the series. Functions are available for
-    estimating the distribution of the autocorrelation function under
-    the assumption of strong functional white noise. A brief
-    illustration of the functionality of the proposed functions can be
-    seen at
+    serial correlation across lags of a given functional time series, see also 
     [github.com/GMestreM/fdaACF](https://github.com/GMestreM/fdaACF) .
 
 ### Other
@@ -168,16 +155,11 @@ could be useful for functional data as well and vice versa.
     covariance structure of 2-dimensional data is separable.
 -   `r pkg("ddalpha")` implements depth-based classification
     and calculation of data depth, also for functional data.
--   `r pkg("fdadensity")` implements Petersen and
-    Mueller (2016) ( [doi:
-    10.1214/15-AOS1363](https://doi.org/10.1214/15-AOS1363) ) for the
+-   `r pkg("fdadensity")` implements Petersen and Mueller (2016, `r doi("10.1214/15-AOS1363")`) for the
     analysis of samples of density functions via specialized Functional
     Principal Components Analysis.
 -   `r pkg("face")` implements Fast Covariance Estimation
-    for Sparse Functional Data paper (c.f. Statistics and Computing,
-    [doi:
-    10.1007/s11222-017-9744-8](https://doi.org/10.1007/s11222-017-9744-8)
-    )
+    for Sparse Functional Data, c.f. Xiao et al. (2018, `r doi("10.1007/s11222-017-9744-8")`).
 -   `r pkg("fdatest")` provides an implementation of the
     Interval Testing Procedure for functional data in different
     frameworks (i.e., one or two-population frameworks, functional
@@ -189,24 +171,16 @@ could be useful for functional data as well and vice versa.
     predicting functional data (curves) with spatial dependence.
 -   `r pkg("mfaces")` implements multivariate functional
     principal component analysis via fast covariance estimation for
-    multivariate sparse functional data or longitudinal data (c.f Li,
-    Xiao, and Luo (2020) [doi:
-    10.1002/sta4.245](https://doi.org/10.1002/sta4.245) ).
--   `r pkg("MFPCA")` calculates multivariate FPCA for data
-    observed on different dimensional domains (c.f. Happ and Greven
-    (2018) [doi:
-    10.1080/01621459.2016.1273115](https://doi.org/10.1080/01621459.2016.1273115)
-    ).
+    multivariate sparse functional data or longitudinal data,  c.f Li,
+    Xiao, and Luo (2020, `r doi("10.1002/sta4.245")`) 
+-   `r pkg("MFPCA")`calculates multivariate FPCA for "multimodal" data 
+    observed on domains with different dimensionalities, c.f. Happ and Greven (2018, `r doi("10.1080/01621459.2016.1273115")`).
 -   `r pkg("SCBmeanfd")` provides methods for estimating and
     inferring the mean of functional data. The methods include
     simultaneous confidence bands, local polynomial fitting, bandwidth
     selection by plug-in and cross-validation, goodness-of-fit tests for
     parametric models, equality tests for two-sample problems, and
     plotting functions.
--   `r pkg("switchnpreg")` provides functions for estimating
-    the parameters from the latent state process and the functions
-    corresponding to the J states as proposed by De Souza and Heckman
-    (2013).
 
 Please e-mail the maintainer with suggestions, additions, and
 improvements or submit an issue or pull request in the GitHub repository
