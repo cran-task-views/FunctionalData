@@ -66,7 +66,7 @@ could be useful for functional data as well and vice versa.
     functional principal component analysis.
 -   `r pkg("fdANOVA")` implements analysis of variance
     testing procedures for univariate and multivariate functional data.
--   `r pkg("fdaPDE")` implements regression models with partial differential regularization using finite element methods to efficiently handle data distributed over irregularly shaped domains and boundary conditions.
+-   `r pkg("fdaPDE")` implements statistical analysis of functional and spatial data over multidimensional complex domains, based on regression models with partial differential regularization, discretized through the finite element method.
 -   `r pkg("FDboost", priority = "core")` implements flexible
     additive regression models and variable selection for
     scalar-on-function, function-on-scalar and function-on-function
@@ -86,10 +86,11 @@ could be useful for functional data as well and vice versa.
     GP and iGMRF formulations both support any number of additive
     covariance or precision terms, respectively, expressing either or
     both of multiple trend and seasonality.
+-   `r pkg("multifamm")` implements multivariate functional additive mixed models (multiFAMM) based on univariate sparse functional regression models and multivariate functional principal component analysis, c.f. Volkmann et al. (2012) [doi:  10.48550/arXiv.2103.06606](https://doi.org/10.48550/arXiv.2103.06606).
 -   `r pkg("refund", priority = "core")` provides
     spline-based methods for roughness penalized function-on-scalar,
     scalar-on-function, and function-on-function regression as well as
-    methods for functional PCA. Some of the functions are applicable to
+    methods for functional PCA. Some of the functions are also applicable to
     image data.
 -   `r pkg("splinetree")` implements regression trees and
     random forests for longitudinal or functional data using a spline
@@ -113,6 +114,7 @@ could be useful for functional data as well and vice versa.
 
 ### Registering and aligning functional data
 
+-   `r pkg("elasdics")` provides functions to align curves and to compute mean curves based on the elastic distance defined in the square-root-velocity framework, c.f. Steyer et al. (2021) [doi:  10.48550/arXiv.2104.11039](https://doi.org/10.48550/arXiv.2104.11039).
 -   `r pkg("fdasrvf")` performs alignment, PCA, and
     regression of multidimensional or unidimensional functions using the
     square-root velocity framework (Srivastava et al., 2011). This
