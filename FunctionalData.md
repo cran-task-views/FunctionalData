@@ -155,11 +155,11 @@ could be useful for functional data as well and vice versa.
     covariance structure of 2-dimensional data is separable.
 -   `r pkg("ddalpha")` implements depth-based classification
     and calculation of data depth, also for functional data.
--   `r pkg("fdadensity")` implements Petersen and Mueller (2016, `r doi("10.1214/15-AOS1363")`) for the
-    analysis of samples of density functions via specialized Functional
-    Principal Components Analysis.
 -   `r pkg("face")` implements Fast Covariance Estimation
     for Sparse Functional Data, c.f. Xiao et al. (2018, `r doi("10.1007/s11222-017-9744-8")`).
+-   `r pkg("fdadensity")` implements Petersen and Müller (2016, `r doi("10.1214/15-AOS1363")`) for the
+    analysis of samples of density functions via specialized Functional
+    Principal Components Analysis.
 -   `r pkg("fdatest")` provides an implementation of the
     Interval Testing Procedure for functional data in different
     frameworks (i.e., one or two-population frameworks, functional
@@ -167,13 +167,16 @@ could be useful for functional data as well and vice versa.
     B-spline, Fourier, and phase-amplitude Fourier).
 -   `r pkg("fdcov")` provides a variety of tools for the
     analysis of covariance operators.
+-   `r pkg("frechet")` implements Fréchet regression for for non-Euclidean responses, 
+     e.g. distributions in L^2-Wasserstein space or covariance matrices, 
+     c.f. Petersen & Müller (2019, `r doi("10.1214/17-AOS1624")`).
 -   `r pkg("geofd")` provides Kriging based methods for
     predicting functional data (curves) with spatial dependence.
 -   `r pkg("mfaces")` implements multivariate functional
     principal component analysis via fast covariance estimation for
     multivariate sparse functional data or longitudinal data,  c.f Li,
     Xiao, and Luo (2020, `r doi("10.1002/sta4.245")`) 
--   `r pkg("MFPCA")`calculates multivariate FPCA for "multimodal" data 
+-   `r pkg("MFPCA")` calculates multivariate FPCA for "multimodal" data 
     observed on domains with different dimensionalities, c.f. Happ and Greven (2018, `r doi("10.1080/01621459.2016.1273115")`).
 -   `r pkg("SCBmeanfd")` provides methods for estimating and
     inferring the mean of functional data. The methods include
