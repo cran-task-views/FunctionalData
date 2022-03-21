@@ -1,9 +1,9 @@
 ---
 name: FunctionalData
 topic: Functional Data Analysis
-maintainer: Fabian Scheipl
+maintainer: Eleonora Arnone, Giles Hooker, Derek J. Tucker, Fabian Scheipl,  Julia Wrobel
 email: fabian.scheipl@stat.uni-muenchen.de
-version: 2022-03-07
+version: 2022-03-21
 source: https://github.com/cran-task-views/FunctionalData/
 ---
 
@@ -191,6 +191,7 @@ linked above.
 
 
 ### Links
+
 -   [Website of the canonical FDA book by Ramsay and Silverman](http://www.psych.mcgill.ca/misc/fda/)
 -   [PACE: collection of MATLAB scripts from UC Davis](http://www.stat.ucdavis.edu/PACE/)
 -   [WFMM: powerful software for Bayesian wavelet-based functional mixed models (C++/Matlab)](https://biostatistics.mdanderson.org/softwaredownload/SingleSoftware.aspx?Software_Id=70)
