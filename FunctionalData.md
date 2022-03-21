@@ -13,7 +13,7 @@ continuum."](https://en.wikipedia.org/wiki/Functional_data_analysis)
 This task view tries to provide an overview of available packages in this developing
 field.  
 In practice, there is substantial overlap between time series data and functional data,
-so many packages listed under the ["TimeSeries" task view](https://CRAN.R-project.org/view=TimeSeries)
+so many packages listed under the `r view("TimeSeries")` task view
 could be useful for functional data as well and vice versa.
 
 ### General functional data analysis
