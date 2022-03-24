@@ -13,17 +13,22 @@ continuum."](https://en.wikipedia.org/wiki/Functional_data_analysis)
 This task view tries to provide an overview of available packages in this developing
 field.  
 In practice, there is substantial overlap between time series data and functional data,
-so many packages listed under the `r view("TimeSeries")` task view
+so some of the packages listed under the `r view("TimeSeries")` task view
 could be useful for functional data as well and vice versa.
 
 ### General functional data analysis
+
+The packages listed below provide "infrastructure" for representing and handling
+function-valued data and/or implement many widely applicable functional
+data methods:
 
 -   `r pkg("fda", priority = "core")` provides object-types for functional data 
     with corresponding functions for smoothing, plotting and simple regression models,
     c.f. Ramsay et al. (2009, `r doi("10.1007/978-0-387-98185-7")`).
 -   `r pkg("fdasrvf", priority = "core")` performs alignment,
     PCA, and regression of multidimensional or unidimensional functions
-    using the square-root velocity framework, c.f. Srivastava et al. (2011, `r doi("10.48550/arXiv.1103.3817")`).
+    using the square-root velocity framework, c.f. Srivastava et al. 
+    (2011, `r doi("10.48550/arXiv.1103.3817")`).
     This framework allows for elastic analysis of functional data
     through phase and amplitude separation.
 -   `r pkg("fdapace", priority = "core")` provides functional
@@ -42,7 +47,7 @@ could be useful for functional data as well and vice versa.
     with functional data.
 -   `r pkg("funData")` provides S4 classes for univariate
     and multivariate functional and image data and utility functions.
--   `r pkg("rainbow")` contains functions and data sets for
+-   `r pkg("rainbow")` contains functional data sets and functions for
     functional data display, exploratory analysis and outlier detection.
 -   `r pkg("fdaoutlier")` provides a collection of functions
     for functional data outlier detection. Methods implemented include
@@ -51,43 +56,49 @@ could be useful for functional data as well and vice versa.
 
 ### Regression and classification for functional data
 
+**General purpose:**
+
+-   `r pkg("FDboost", priority = "core")` implements flexible
+    additive regression models and variable selection for
+    scalar-on-function, function-on-scalar and function-on-function
+    regression models that are fitted by a component-wise gradient
+    boosting algorithm.
+-   `r pkg("refund", priority = "core")` provides
+    spline-based methods for penalized function-on-scalar,
+    scalar-on-function, and function-on-function regression as well as
+    methods for functional PCA. Some of the functions are also applicable to
+    image data.
 -   `r pkg("dbstats")` provides prediction methods where
     explanatory information is coded as a matrix of distances between
     individuals. It includes distance based versions of
     `lm` and `glm`, as well as nonparametric versions of both, based on local estimation.
     To apply these methods to functional data it is sufficient to
     calculate a distance matrix between the observed functional data.
--   `r pkg("denseFLMM")` and `r pkg("sparseFLMM")` estimate functional linear mixed
-    models for densely and sparsely sampled data, respectively, based on
+
+**Specialized models and applications:**
+
+-   `r pkg("denseFLMM")` and `r pkg("sparseFLMM")` estimate linear mixed
+    models for densely and sparsely sampled functional responses, respectively, based on
     functional principal component analysis.
 -   `r pkg("fdANOVA")` implements analysis of variance
     testing procedures for univariate and multivariate functional data.
--   `r pkg("fdaPDE")` implements statistical analysis of functional and spatial data over multidimensional complex domains, based on regression models with partial differential regularization, discretized through the finite element method.
--   `r pkg("FDboost", priority = "core")` implements flexible
-    additive regression models and variable selection for
-    scalar-on-function, function-on-scalar and function-on-function
-    regression models that are fitted by a component-wise gradient
-    boosting algorithm.
--   `r pkg("flars")` implements variable selection for the
-    functional linear regression with scalar response variable and mixed
-    scalar/functional predictors based on the least angle regression
-    approach.
+-   `r pkg("fdaPDE")` implements statistical analysis of functional and spatial 
+   data over multidimensional complex domains, based on regression models with 
+   partial differential regularization, discretized through the finite element method.
+-   `r pkg("flars")` implements variable selection for linear regression with 
+    scalar responses and mixed scalar and functional predictors, 
+    based on the least angle regression approach.
 -   `r pkg("GPFDA")` uses functional regression as the mean
     structure and Gaussian processes as the covariance structure.
 -   `r pkg("growfunctions")` estimates a collection of
     time-indexed functions under either of Gaussian process (GP) or
     intrinsic Gaussian Markov random field (iGMRF) prior formulations
     where a Dirichlet process mixture allows sub-groupings of the
-    functions to share the same covariance or precision parameters. The
-    GP and iGMRF formulations both support any number of additive
-    covariance or precision terms, respectively, expressing either or
-    both of multiple trend and seasonality.
--   `r pkg("multifamm")` implements multivariate functional additive mixed models (multiFAMM) based on univariate sparse functional regression models and multivariate functional principal component analysis, c.f. Volkmann et al. (2012, `r doi("10.48550/arXiv.2103.06606")`).
--   `r pkg("refund", priority = "core")` provides
-    spline-based methods for roughness penalized function-on-scalar,
-    scalar-on-function, and function-on-function regression as well as
-    methods for functional PCA. Some of the functions are also applicable to
-    image data.
+    functions to share the same covariance or precision parameters. 
+-   `r pkg("multifamm")` implements multivariate functional additive mixed models
+    (multiFAMM) based on univariate sparse functional regression models and 
+    multivariate functional principal component analysis, c.f. 
+    Volkmann et al. (2012, `r doi("10.48550/arXiv.2103.06606")`).
 -   `r pkg("splinetree")` implements regression trees and
     random forests for longitudinal or functional data using a spline
     projection method.
@@ -110,7 +121,9 @@ could be useful for functional data as well and vice versa.
 
 ### Registering and aligning functional data
 
--   `r pkg("elasdics")` provides functions to align curves and to compute mean curves based on the elastic distance defined in the square-root-velocity framework, c.f. Steyer et al. (2021, `r doi("10.48550/arXiv.2104.11039")`).
+-   `r pkg("elasdics")` provides functions to align 2D curves and to compute mean 
+    curves based on the elastic distance defined in the square-root-velocity 
+    framework, c.f. Steyer et al. (2021, `r doi("10.48550/arXiv.2104.11039")`).
 -   `r pkg("fdasrvf")` performs alignment, PCA, and
     regression of multidimensional or unidimensional functions using the
     square-root velocity framework (Srivastava et al., 2011). This
@@ -119,8 +132,8 @@ could be useful for functional data as well and vice versa.
 -   `r pkg("fdakma")` performs clustering and alignment of a
     multidimensional or unidimensional functional dataset by means of
     k-mean alignment.
--   `r pkg("registr")` provides registration for (incomplete) non-Gaussian functional data, 
-    c.f Wrobel et al. (2019, `r doi("10.1111/biom.12963")`),
+-   `r pkg("registr")` provides registration for (incomplete) non-Gaussian 
+    functional data,  c.f Wrobel et al. (2019, `r doi("10.1111/biom.12963")`),
     Wrobel and Bauer (2021, `r doi("10.21105/joss.02964")`).
 -   `r pkg("warpMix")` implements warping (alignment) for
     functional data using B-spline based mixed effects models.
