@@ -25,12 +25,6 @@ data methods:
 -   `r pkg("fda", priority = "core")` provides object-types for functional data 
     with corresponding functions for smoothing, plotting and simple regression models,
     c.f. Ramsay et al. (2009, `r doi("10.1007/978-0-387-98185-7")`).
--   `r pkg("fdasrvf", priority = "core")` performs alignment,
-    PCA, and regression of multidimensional or unidimensional functions
-    using the square-root velocity framework, c.f. Srivastava et al. 
-    (2011, `r doi("10.48550/arXiv.1103.3817")`).
-    This framework allows for elastic analysis of functional data
-    through phase and amplitude separation.
 -   `r pkg("fdapace", priority = "core")` provides functional
     principal component based methods for sparsely or densely sampled
     random trajectories and time courses for functional regression and
