@@ -191,6 +191,7 @@ data methods:
     selection by plug-in and cross-validation, goodness-of-fit tests for
     parametric models, equality tests for two-sample problems, and
     plotting functions.
+-   `r pkg("refund.shiny")` provides a function `plot_shiny` that uses S3 and generates a Shiny app of interactive visualizations for functional data analyses produce using the `refund` package, described in c.f. Wrobel et al. (2016, `r doi("10.1002/sta4.109")`)
 
 Please e-mail the maintainer with suggestions, additions, and
 improvements or submit an issue or pull request in the GitHub repository
