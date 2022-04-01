@@ -209,3 +209,4 @@ linked above.
 -   [PACE: collection of MATLAB scripts from UC Davis](http://www.stat.ucdavis.edu/PACE/)
 -   [WFMM: powerful software for Bayesian wavelet-based functional mixed models (C++/Matlab)](https://biostatistics.mdanderson.org/softwaredownload/SingleSoftware.aspx?Software_Id=70)
 -   [scikit-FDA: comprehensive Python package for FDA](https://fda.readthedocs.io)
+-   [fdasrsf: comprehensive Python package for SRVF FDA](https://fdasrsf-python.readthedocs.io/)
