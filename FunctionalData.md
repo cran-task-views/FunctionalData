@@ -31,6 +31,11 @@ data methods:
     correlation, for longitudinal data analysis, the analysis of
     stochastic processes from samples of realized trajectories, and for
     the analysis of underlying dynamics.
+-   `r pkg("fdasrvf")` performs alignment, PCA, and
+    regression of multidimensional or unidimensional functions using the
+    square-root velocity framework (Srivastava et al., 2011). This
+    framework allows for elastic analysis of functional data through
+    phase and amplitude separation.
 -   `r pkg("fda.usc", priority = "core")` provides routines
     for exploratory and descriptive analysis of functional data such as
     depth measurements, outlier detection, as well as unsupervised and
