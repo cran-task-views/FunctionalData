@@ -46,12 +46,6 @@ data methods:
     with functional data.
 -   `r pkg("funData")` provides S4 classes for univariate
     and multivariate functional and image data and utility functions.
--   `r pkg("rainbow")` contains functional data sets and functions for
-    functional data display, exploratory analysis and outlier detection.
--   `r pkg("fdaoutlier")` provides a collection of functions
-    for functional data outlier detection. Methods implemented include
-    directional outlyingness, MS-plot, total variation depth, and
-    sequential transformations among others.
 
 ### Regression and classification for functional data
 
@@ -161,6 +155,15 @@ data methods:
     serial correlation across lags of a given functional time series, see also 
     [github.com/GMestreM/fdaACF](https://github.com/GMestreM/fdaACF) .
 
+### Visualization and Exploratory Data Analysis
+-   `r pkg("rainbow")` contains functional data sets and functions for
+    functional data display, exploratory analysis and outlier detection.
+-   `r pkg("refund.shiny")` provides a function `plot_shiny` that uses S3 and generates a Shiny app of interactive visualizations for functional data analyses produce using the `refund` package, described in c.f. Wrobel et al. (2016, `r doi("10.1002/sta4.109")`)
+-   `r pkg("fdaoutlier")` provides a collection of functions
+    for functional data outlier detection. Methods implemented include
+    directional outlyingness, MS-plot, total variation depth, and
+    sequential transformations among others.
+
 ### Other
 
 -   `r pkg("covsep")` provides functions for testing if the
@@ -196,7 +199,7 @@ data methods:
     selection by plug-in and cross-validation, goodness-of-fit tests for
     parametric models, equality tests for two-sample problems, and
     plotting functions.
--   `r pkg("refund.shiny")` provides a function `plot_shiny` that uses S3 and generates a Shiny app of interactive visualizations for functional data analyses produce using the `refund` package, described in c.f. Wrobel et al. (2016, `r doi("10.1002/sta4.109")`)
+
 
 Please e-mail the maintainer with suggestions, additions, and
 improvements or submit an issue or pull request in the GitHub repository
