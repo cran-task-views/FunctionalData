@@ -92,6 +92,9 @@ data methods:
     (multiFAMM) based on univariate sparse functional regression models and 
     multivariate functional principal component analysis, c.f. 
     Volkmann et al. (2012, `r doi("10.48550/arXiv.2103.06606")`).
+-   `r pkg("robflreg")` implements robust methods for functional linear regression
+    (scalar-on-function, function-on-function) based on robust partial
+    least squares decompositions.
 -   `r pkg("splinetree")` implements regression trees and
     random forests for longitudinal or functional data using a spline
     projection method.
