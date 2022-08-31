@@ -78,9 +78,6 @@ data methods:
 -   `r pkg("fdaPDE")` implements statistical analysis of functional and spatial 
    data over multidimensional complex domains, based on regression models with 
    partial differential regularization, discretized through the finite element method.
--   `r pkg("flars")` implements variable selection for linear regression with 
-    scalar responses and mixed scalar and functional predictors, 
-    based on the least angle regression approach.
 -   `r pkg("GPFDA")` uses functional regression as the mean
     structure and Gaussian processes as the covariance structure.
 -   `r pkg("growfunctions")` estimates a collection of
@@ -111,9 +108,7 @@ data methods:
     of functional data, i.e., simultaneously clustering the rows and the
     columns of a data matrix where each entry of the matrix is a
     function or a time series.
--   `r pkg("fdakma")` performs clustering and alignment of a
-    multidimensional or unidimensional functional dataset by means of
-    k-mean alignment.
+
 
 ### Registering and aligning functional data
 
@@ -183,8 +178,6 @@ data methods:
     frameworks (i.e., one or two-population frameworks, functional
     linear models) by means of different basis expansions (i.e.,
     B-spline, Fourier, and phase-amplitude Fourier).
--   `r pkg("fdcov")` provides a variety of tools for the
-    analysis of covariance operators.
 -   `r pkg("frechet")` implements Fréchet regression for for non-Euclidean responses, 
      e.g. distributions in L^2-Wasserstein space or covariance matrices, 
      c.f. Petersen & Müller (2019, `r doi("10.1214/17-AOS1624")`).
