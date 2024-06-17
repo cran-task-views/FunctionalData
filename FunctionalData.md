@@ -101,9 +101,6 @@ data methods:
 -   `r pkg("funFEM")` 's algorithm (Bouveyron et al., 2014)
     allows to cluster functional data by modeling the curves within a
     common and discriminative functional subspace.
--   `r pkg("funHDDC")` provides the funHDDC algorithm
-    (Bouveyron & Jacques, 2011) which allows to cluster functional data
-    by modeling each group within a specific functional subspace.
 -   `r pkg("funLBM")` implements model-based co-clustering
     of functional data, i.e., simultaneously clustering the rows and the
     columns of a data matrix where each entry of the matrix is a
