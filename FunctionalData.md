@@ -3,7 +3,7 @@ name: FunctionalData
 topic: Functional Data Analysis
 maintainer: Fabian Scheipl, Eleonora Arnone, Giles Hooker, J. Derek Tucker, Julia Wrobel
 email: fabian.scheipl@stat.uni-muenchen.de
-version: 2022-03-21
+version: 2024-06-17
 source: https://github.com/cran-task-views/FunctionalData/
 ---
 
