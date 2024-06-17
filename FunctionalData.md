@@ -178,8 +178,6 @@ data methods:
 -   `r pkg("frechet")` implements Fréchet regression for for non-Euclidean responses, 
      e.g. distributions in L^2-Wasserstein space or covariance matrices, 
      c.f. Petersen & Müller (2019, `r doi("10.1214/17-AOS1624")`).
--   `r pkg("geofd")` provides Kriging based methods for
-    predicting functional data (curves) with spatial dependence.
 -   `r pkg("mfaces")` implements multivariate functional
     principal component analysis via fast covariance estimation for
     multivariate sparse functional data or longitudinal data,  c.f Li,
