@@ -46,6 +46,12 @@ data methods:
     with functional data.
 -   `r pkg("funData")` provides S4 classes for univariate
     and multivariate functional and image data and utility functions.
+-   `r pkg("tf")` provides S3 vector data types for functional data
+    with arithmetic and summary methods, derivation, integration and
+    smoothing, plotting, data import and export, and data wrangling 
+    (subsetting, sub-assigning, zooming, extracting functional features) that 
+    allow including such vectors in data frames for joint analysis of 
+    functional and scalar variables.
 
 ### Regression and classification for functional data
 
@@ -56,6 +62,11 @@ data methods:
     scalar-on-function, function-on-scalar and function-on-function
     regression models that are fitted by a component-wise gradient
     boosting algorithm.
+    - `r pkg("mlr3fda")` extends ['mlr3'](https://mlr3.mlr-org.com/) for
+    functional data analysis, with support for irregular and regular functional
+    data as defined in ['tf'](https://tidyfun.github.io/tf/), providing
+    'PipeOps' for preprocessing functional columns and for extracting scalar
+    features to be used in standard machine learning algorithms.
 -   `r pkg("refund", priority = "core")` provides
     spline-based methods for penalized function-on-scalar,
     scalar-on-function, and function-on-function regression as well as
