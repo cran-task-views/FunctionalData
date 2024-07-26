@@ -102,7 +102,8 @@ data methods:
 -   `r pkg("splinetree")` implements regression trees and
     random forests for longitudinal or functional data using a spline
     projection method.
-
+-   `r pkg("adass")` implements the adaptive smoothing spline estimator for the function-on-function linear regression model described, c.f. Centofanti et al. (2023, `r doi("10.1007/s00180-022-01223-6")`).
+  
 **Statistical tests:**
 
 -   `r pkg("fdANOVA")` implements analysis of variance testing procedures for univariate and multivariate functional data.
@@ -123,6 +124,7 @@ data methods:
     of functional data, i.e., simultaneously clustering the rows and the
     columns of a data matrix where each entry of the matrix is a
     function or a time series.
+-   `r pkg("sasfunclust")` implements the sparse and smooth functional clustering (SaS-Funclust) method, c.f. Centofanti et al. (2024, `r doi("10.1007/s00362-023-01408-1")`), that aims to classify a sample of curves into homogeneous groups while jointly detecting the most informative portions of domain.
 
 
 ### Registering and aligning functional data
