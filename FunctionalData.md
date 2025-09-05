@@ -160,9 +160,6 @@ data methods:
 -   `r pkg("freqdom.fda")` provides a wrapper for
     functionality of `r pkg("freqdom")` for objects from
     `r pkg("fda")`
--   `r pkg("pcdpca")` extends multivariate dynamic principal
-    components to periodically correlated multivariate and functional<!-- 
-    time series.
 -   `r pkg("fdaACF")` contains functions to quantify the
     serial correlation across lags of a given functional time series, see also 
     [github.com/GMestreM/fdaACF](https://github.com/GMestreM/fdaACF) .
