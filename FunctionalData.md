@@ -163,6 +163,7 @@ data methods:
 -   `r pkg("fdaACF")` contains functions to quantify the
     serial correlation across lags of a given functional time series, see also 
     [github.com/GMestreM/fdaACF](https://github.com/GMestreM/fdaACF) .
+-   `r pkg("Rmfrac")` package provides tools for simulation of fractional and          multifractional processes; estimation of the Hurst function, local fractal dimension,  and related geometric statistics; and Hurst function based clustering of time series. 
 
 ### Visualization and Exploratory Data Analysis
 
