@@ -120,10 +120,6 @@ data methods:
 -   `r pkg("funFEM")` 's algorithm (Bouveyron et al., 2014)
     allows to cluster functional data by modeling the curves within a
     common and discriminative functional subspace.
--   `r pkg("funLBM")` implements model-based co-clustering
-    of functional data, i.e., simultaneously clustering the rows and the
-    columns of a data matrix where each entry of the matrix is a
-    function or a time series.
 -   `r pkg("sasfunclust")` implements the sparse and smooth functional clustering (SaS-Funclust) method, c.f. Centofanti et al. (2024, `r doi("10.1007/s00362-023-01408-1")`), that aims to classify a sample of curves into homogeneous groups while jointly detecting the most informative portions of domain.
 
 
@@ -157,9 +153,6 @@ data methods:
     multivariate and functional time series and implements dynamic
     functional principal components and functional regression in the
     presence of temporal dependence.
--   `r pkg("freqdom.fda")` provides a wrapper for
-    functionality of `r pkg("freqdom")` for objects from
-    `r pkg("fda")`
 -   `r pkg("fdaACF")` contains functions to quantify the
     serial correlation across lags of a given functional time series, see also 
     [github.com/GMestreM/fdaACF](https://github.com/GMestreM/fdaACF) .
