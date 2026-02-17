@@ -120,7 +120,6 @@ data methods:
 -   `r pkg("funFEM")` 's algorithm (Bouveyron et al., 2014)
     allows to cluster functional data by modeling the curves within a
     common and discriminative functional subspace.
--   `r pkg("sasfunclust")` implements the sparse and smooth functional clustering (SaS-Funclust) method, c.f. Centofanti et al. (2024, `r doi("10.1007/s00362-023-01408-1")`), that aims to classify a sample of curves into homogeneous groups while jointly detecting the most informative portions of domain.
 
 
 ### Registering and aligning functional data
@@ -133,9 +132,6 @@ data methods:
     square-root velocity framework (Srivastava et al., 2011). This
     framework allows for elastic analysis of functional data through
     phase and amplitude separation.
--   `r pkg("registr")` provides registration for (incomplete) non-Gaussian 
-    functional data,  c.f Wrobel et al. (2019, `r doi("10.1111/biom.12963")`),
-    Wrobel and Bauer (2021, `r doi("10.21105/joss.02964")`).
 -   `r pkg("warpMix")` implements warping (alignment) for
     functional data using B-spline based mixed effects models.
 
