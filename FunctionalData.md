@@ -132,6 +132,9 @@ data methods:
     square-root velocity framework (Srivastava et al., 2011). This
     framework allows for elastic analysis of functional data through
     phase and amplitude separation.
+-   `r pkg("registr")` provides registration for (incomplete) non-Gaussian
+    functional data,  c.f Wrobel et al. (2019, `r doi("10.1111/biom.12963")`),
+    Wrobel and Bauer (2021, `r doi("10.21105/joss.02964")`).
 -   `r pkg("warpMix")` implements warping (alignment) for
     functional data using B-spline based mixed effects models.
 
