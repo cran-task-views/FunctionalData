@@ -46,7 +46,10 @@ data methods:
     with functional data.
 -   `r pkg("funData")` provides S4 classes for univariate
     and multivariate functional and image data and utility functions.
--   `r pkg("tf", priority = "core")` provides S3 vector data types for functional data with arithmetic and summary methods, derivation, integration and smoothing, plotting, data import and export, and data wrangling (subsetting, sub-assigning, zooming, extracting functional features) that allow including such vectors in data frames for joint analysis of functional and scalar variables.
+-   `r pkg("tf", priority = "core")` provides S3 vector types for functional data represented on grids, in spline bases, or via functional principal components; supports arithmetic and summary methods, plotting, derivation,
+integration, smoothing, registration, and data import/export for these functional vectors; includes data-wrangling tools for re-evaluation, subsetting, sub-assignment, zooming into sub-domains, and extracting functional features such as minima, maxima, and their locations. Enables joint analysis of functional and scalar variables by integrating functional vectors into standard data frames.
+-   `r pkg("tidyfun")` builds on the `tf`-package to provide `tidyverse`-style data manipulation and `ggplot2`-based visualization for functional data. 
+
 
 ### Inference methods for functional data
 
