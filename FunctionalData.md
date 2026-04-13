@@ -3,7 +3,7 @@ name: FunctionalData
 topic: Functional Data Analysis
 maintainer: Fabian Scheipl, Eleonora Arnone, Giles Hooker, J. Derek Tucker, Julia Wrobel
 email: fabian.scheipl@stat.uni-muenchen.de
-version: 2024-06-17
+version: 2026-04-13
 source: https://github.com/cran-task-views/FunctionalData/
 ---
 
@@ -85,11 +85,6 @@ data methods:
    partial differential regularization, discretized through the finite element method.
 -   `r pkg("GPFDA")` uses functional regression as the mean
     structure and Gaussian processes as the covariance structure.
--   `r pkg("growfunctions")` estimates a collection of
-    time-indexed functions under either of Gaussian process (GP) or
-    intrinsic Gaussian Markov random field (iGMRF) prior formulations
-    where a Dirichlet process mixture allows sub-groupings of the
-    functions to share the same covariance or precision parameters. 
 -   `r pkg("multifamm")` implements multivariate functional additive mixed models
     (multiFAMM) based on univariate sparse functional regression models and 
     multivariate functional principal component analysis, c.f. 
@@ -143,11 +138,6 @@ data methods:
 -   `r pkg("ftsa", priority = "core")` provides functions for
     visualizing, modeling, forecasting and hypothesis testing of
     functional time series.
--   `r pkg("ftsspec")` provides functions for estimating the
-    spectral density operator of functional time series (FTS) and
-    comparing the spectral density operator of two functional time
-    series, in a way that allows detection of differences of the
-    spectral density operator in frequencies and along the curve length.
 -   `r pkg("freqdom")` provides frequency domain methods for
     multivariate and functional time series and implements dynamic
     functional principal components and functional regression in the
