@@ -100,7 +100,6 @@ integration, smoothing, registration, and data import/export for these functiona
 -   `r pkg("splinetree")` implements regression trees and
     random forests for longitudinal or functional data using a spline
     projection method.
--   `r pkg("adass")` implements the adaptive smoothing spline estimator for the function-on-function linear regression model described, c.f. Centofanti et al. (2023, `r doi("10.1007/s00180-022-01223-6")`).
   
 **Statistical tests:**
 
